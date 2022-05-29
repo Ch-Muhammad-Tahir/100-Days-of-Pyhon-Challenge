@@ -1,6 +1,7 @@
 print("Hello World!")
 
-# Day 1 Exercise
-print('Day 1 - Python Print Function')
-print("The Function Declare Like This")
-print("print('what is print')")
+# The new line character “\n” is used to create a new line.
+print("Hello World \nHello World \nHello World")
+
+# String Concatenation Using "+"
+print("Hello"+" "+"Tahir")
