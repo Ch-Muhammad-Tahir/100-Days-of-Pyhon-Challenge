@@ -11,3 +11,6 @@ length_list = len(names)
 random_number = random.randint(0, length_list-1)
 print(f"{names[random_number]} is going to buy the meal today!")
 print(random_number)
+# Shortest Method Using random.choice Function
+# random_choice=random.choice(names)
+# print(random_choice)

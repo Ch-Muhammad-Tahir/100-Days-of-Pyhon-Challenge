@@ -22,7 +22,7 @@ states_of_america = ["Delaware", "Pennsylvania", "New Jersey", "Georgia", "Conne
 
 print(states_of_america[0])
 
-print(states_of_america[-1]) # Staring From End of The List
+print(states_of_america[-1])  # Staring From End of The List
 print(states_of_america[-2])
 
 # Edit Item Of a List
@@ -38,5 +38,9 @@ print(states_of_america)
 states_of_america.extend(["New State1", "New State2", "New State2"])
 print(states_of_america)
 
-
-
+# ------------------------------- Nested List ------------------------------------
+fruits = ["Apple", "Mango", "Peach", "Banana", "Orange"]
+vegetables = ["Avocados", "Sweet corn", "Pineapples",
+              "Cabbages", "Onions"]
+fruit_and_vegetables =[fruits,vegetables]
+print(fruit_and_vegetables)
