@@ -29,3 +29,5 @@ elif (love_score >= 40) and (love_score <= 50):
     print(f"Your score is {love_score}, you are alright together.")
 else:
     print(f"Your Love Score is {love_score}")
+
+
