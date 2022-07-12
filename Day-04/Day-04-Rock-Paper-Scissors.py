@@ -40,4 +40,22 @@ elif player_choose == "2":
 
 print("Computer Choose ")
 computer_choose = random.choice(game_items)
+
+item_index = game_items.index(computer_choose)
 print(computer_choose)
+print(item_index)
+
+if player_choose == "0" and item_index == 2:
+    print("You win")
+elif player_choose == "2" and item_index == 1:
+    print("You win")
+elif player_choose == "1" and item_index == 0:
+    print("You win")
+elif player_choose == "2" and item_index == 0:
+    print("You Lose")
+elif player_choose == "1" and item_index == 2:
+    print("You Lose")
+elif player_choose == "0" and item_index == 1:
+    print("You Lose")
+else:
+    print("Draw")
