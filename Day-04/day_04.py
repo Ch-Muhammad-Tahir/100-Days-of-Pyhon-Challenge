@@ -41,6 +41,6 @@ print(states_of_america)
 # ------------------------------- Nested List ------------------------------------
 fruits = ["Apple", "Mango", "Peach", "Banana", "Orange"]
 vegetables = ["Avocados", "Sweet corn", "Pineapples",
-              "Cabbages", "Onions"]
+              "Cabbages", "Onions","Hello World"]
 fruit_and_vegetables =[fruits,vegetables]
 print(fruit_and_vegetables)
